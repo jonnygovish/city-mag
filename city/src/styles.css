@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body,
+h1 {
+  font-family: "Open Sans", sans-serif;
+}
+.creativity,
+.footer,
+.headers,
+.magazine,
+.myText,
+.theBackground,
+.theBlackCitySide,
+.theBlackSide,
+.theStory {
+  text-align: center;
+}
+body {
+  margin: 0;
+}
+h1 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 4em;
+}
+.done {
+  font-family: "Open Sans", Lato Light;
+}
+.create,
+.myMag {
+  font-family: "Kaushan Script", cursive;
+}
+#global-nav {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  height: 150px;
+  width: 100%;
+  color: #fff;
+  line-height: 150px;
+  -webkit-transition: height 0.5s, line-height 0.5s;
+  transition: height 0.5s, line-height 0.5s;
+}
+.creativity,
+.footer,
+.nav-link,
+.theBlackSide,
+.theInput:focus,
+.ui {
+  color: #fff;
+}
+.site-title {
+  display: inline-block;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.me1,
+.mySocial,
+.yo,
+.you {
+  display: inline;
+}
+.scrolled-nav .site-title {
+  width: 60%;
+  margin-top: -10%;
+}
+.scrolled-nav {
+  height: 70px !important;
+  line-height: 60px !important;
+  background: #000;
+}
+.logo {
+  width: 125%;
+}
+@media (max-width: 1000px) {
+  .animated {
+    font-size: 0.9em;
+  }
+  .logo {
+    width: 1%;
+  }
+}
+.logo1 {
+  width: 60%;
+}
+.btn-rounded {
+  border-radius: 25px;
+}
+.theBackground {
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 5%;
+}
+.creativity,
+.magazine,
+.theBlackCitySide,
+.theStory,
+.theWeddingcard {
+  background-position: center;
+  background-size: cover;
+}
+.lines,
+.lines1 {
+  width: 40%;
+  margin-top: -10%;
+}
+.theWeddingcard {
+  background-image: url(./img/WeddingCardsandflowers.jpg);
+  background-repeat: no-repeat;
+}
+.theBlackSide {
+  background-image: url(./img/Flower.jpg);
+}
+.theBlackCitySide {
+  background-image: url(./img/city.png);
+  color: #fff;
+}
+.others {
+  margin-top: -5%;
+}
+.theStory {
+  background-image: url(./img/AboutUs.jpg);
+}
+.myList {
+  list-style-type: circle;
+}
+.myList li {
+  list-style: circle;
+}
+.magazine {
+  background-image: url(./img/Mediakitmockup.jpg);
+}
+.creativity {
+  background-image: url(./img/weddingsetup.jpg);
+}
+.myMag {
+  margin-top: -50%;
+  font-size: 2em;
+}
+.footer {
+  background: #252222;
+  align-content: center;
+}
+.address {
+  text-align: right;
+}
+@media (max-width: 1000px) {
+  .address {
+    text-align: left;
+    font-size: 0.7em;
+  }
+}
+.btn{
+  border-radius: 25px ;
+}
+.find{
+  border-radius: 25px !important;
+  background-color: #f7941d !important;
+}
+.contact {
+  margin-top: 70%;
+}
+.mya {
+  text-align: center;
+}
+.my {
+  margin-top: 2%;
+  margin-left: 20%;
+}
+.me,
+.you {
+  margin: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+ul li {
+  text-decoration: none;
+  list-style: none;
+}
+.you {
+  padding: 0;
+}
+.yo {
+  padding: 10px;
+}
+.me {
+  padding: 0;
+}
+.me1 {
+  padding: 10px;
+}
+.icons {
+  max-width: 30%;
+  height: auto;
+  background-size: cover;
+}
+.main {
+  font-size: 4em;
+}
+.the100 {
+  height: 110vh;
+}
+@media (max-width: 1000px) {
+  .main {
+    font-size: 2em;
+  }
+  .collapse {
+    background: #000;
+    transition: 1s;
+  }
+  .the100 {
+    height: 100vh;
+  }
+}
+.icons3 {
+  width: 50%;
+}
+.p {
+  font-size: 0.7em;
+}
+.the1000 {
+  height: 130vh;
+}
+@media (max-width: 1000px) {
+  .the1000 {
+    height: 35vh;
+  }
+  .the10000 {
+    height: 130vh;
+  }
+}
+.the10000 {
+  height: 130vh;
+}
+.myStory {
+  height: 90vh;
+}
+.the200 {
+  height: 70vh;
+}
+@media (max-width: 1000px) {
+  .myStory {
+    height: 70vh;
+  }
+  .createe {
+    margin-left: 2%;
+  }
+  .the200 {
+    height: 30vh;
+  }
+}
+.icons1,
+.icons2 {
+  height: auto;
+  background-size: cover;
+}
+.myFont {
+  font-size: 2em;
+}
+.create {
+  color: #f7941d;
+}
+.myModal {
+  margin-top: 10%;
+  background-color: #000;
+}
+@media (max-width: 1000px) {
+  .icons3 {
+    width: 40%;
+  }
+  .myModal {
+    margin-top: 20%;
+  }
+}
+.icons1 {
+  max-width: 60%;
+}
+.butt {
+  margin-top: 13%;
+}
+.icons2 {
+  width: 100%;
+}
+@media (max-width: 1000px) {
+  icons1 {
+    max-width: 30%;
+    height: auto;
+  }
+  .icons2 {
+    width: 40%;
+  }
+}
+.myCarousel {
+  margin-top: -10%;
+}
+.navv {
+  box-shadow: none;
+}
+.theButton {
+  margin-top: 40%;
+}
+.how {
+  font-size: 1.2em;
+  font-weight: 900;
+}
+input,
+textarea {
+  color: #fff;
+}
+.social-icons {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.mySocial {
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.theBackground .col-lg-7{
+  /* flex: 0 0 44.333333% !important; */
+}
+.publicity-icons{
+  margin-top: -160px;
+}
